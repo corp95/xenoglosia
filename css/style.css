@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #F8F9FA;
+}
+
+.contact-in{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.contact-map{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-map iframe{
+  width: 100%;
+  height: 100%;
+  box-shadow: 7px 7px  10px;
+}
+
+.contact-form{
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 40px;
+}
+
+.formulario{
+  width: 100%;
+  background: #4d4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagen-slogan{
+  width: 75%;
+
+}
+
+@media all and (max-width: 480px){
+  .imagen-slogan {
+    width: 100%;
+  }
+}
+
+.ladoizquierdo, .ladoderecho{
+height: 50vh;
+width: 100%;
+}
+
+.top-content {
+  padding: 210px 0;
+}
+
+
+.top-content .text h1 {
+  margin-top: 25px;
+}
+
+
+@media screen and (min-width:768px){
+  .ladoizquierdo, .ladoderecho{
+    height: 100vh;
+
+  }
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.form {
+  width: 450px;
+}
+
+.ladoizquierdo{
+  background: #F8F9FA;
+}
+
+.ladoderecho{
+  min-height: 100vh;
+  background: linear-gradient(rgba(33, 37, 41, 10.0), rgba(33, 37, 41, 0.7)),
+  url(../images/fondoBlur1.jpg)
+  no-repeat center center fixed;
+  background-size:cover;
+}
+
+.fondoBlurAboutUs{
+  min-height: 59vh;
+  background: linear-gradient(rgba(36, 141, 249, 0.20), rgba(36, 141, 249, 10.0)),
+  url(../images/fondoBlur2.jpg)
+  no-repeat center center fixed;
+  background-size:cover;
+}
+
+.fondoBlurEmpresas{
+  min-height: 59vh;
+  background: linear-gradient(rgba(36, 141, 249, 0.20), rgba(36, 141, 249, 10.0)),
+  url(../images/fondoBlur4.jpg)
+  no-repeat center center fixed;
+  background-size:cover;
+}
+
+.fondoBlurAboutUs2{
+  min-height: 59vh;
+  background: linear-gradient(rgba(36, 141, 249, 10.0), rgba(36, 141, 249, 0.20)),
+  url(../images/fondoBlur3.jpg)
+  no-repeat center center fixed;
+  background-size:cover;
+}
+
+.fondoBlurEmpresas2{
+  min-height: 59vh;
+  background: linear-gradient(rgba(36, 141, 249, 10.0), rgba(36, 141, 249, 0.20)),
+  url(../images/fondoBlur5.jpg)
+  no-repeat center center fixed;
+  background-size:cover;
+}
+
+
+/* Configuración de la fuente */
+
+.fuente{
+  font-family: "montserrat";
+  color: #F8F9FA;
+}
+
+.fuente-fina{
+  font-family: "montserrat-light";
+  color: #F8F9FA;
+}
+
+a{
+  color: #F8F9FA;
+}
+
+@font-face {
+  font-family: 'montserrat-light';
+  src: url('../font/Montserrat-Light.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../font/Montserrat.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Configuración del zoom */
+
+.zoom {
+  padding: 0 auto;
+  transition: transform .2s;
+  width: 0 auto;
+  height: 0 auto;
+  margin: 0 auto;
+}
+  
+  .zoom:hover {
+  transform: scale(1.1);
+}
+
+
+/* Sobre nosotros */
+ 
+.about-us-box {
+  margin-top: 100px;
+  
+}
+
+.about-us-box-text {
+  padding-right: 30px;
+  text-align: left;
+}
+
+.about-us-box-text h3 {
+  margin-top: 0;
+}
+
+.about-us-box-text .medium-paragraph {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-box-img img {
+  border-radius: 300px;
+  box-shadow: 3px 3px 10px;
+}
+
+/* Tablas */
+
+#main-container{
+  margin: 3rem;
+}
+
+table {
+  width: 100%;
+  background-color: #F8F9FA;
+  text-align: left;
+}
